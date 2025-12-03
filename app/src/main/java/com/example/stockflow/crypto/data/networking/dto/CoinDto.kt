@@ -1,6 +1,9 @@
-package com.example.stockflow.crypto.domain
+package com.example.stockflow.crypto.data.networking.dto
 
-data class Coin(
+import kotlinx.serialization.Serializable
+
+@Serializable
+data class CoinDto(
     val id: String,
     val rank: Int,
     val name: String,

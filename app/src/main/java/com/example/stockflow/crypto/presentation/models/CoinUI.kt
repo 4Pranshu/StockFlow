@@ -40,9 +40,9 @@ fun Double.toDisplayableNumber(): DisplayableNumber {
         minimumFractionDigits = 2
         maximumFractionDigits = 2
     }
-
     return DisplayableNumber(
         value = this,
         formatted = formatter.format(this)
     )
 }
+

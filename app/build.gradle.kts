@@ -59,4 +59,13 @@ dependencies {
     androidTestImplementation(libs.androidx.ui.test.junit4)
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
+
+//    implementation(libs.ktor.client.core)
+//    implementation(libs.ktor.client.okhttp)
+//    implementation(libs.ktor.client.logging)
+//    implementation(libs.ktor.client.negotiation)
+//    implementation(libs.ktor.client.json)
+
+    implementation(libs.bundles.ktor)
+    implementation(libs.bundles.koin)
 }
